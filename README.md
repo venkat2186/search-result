@@ -88,3 +88,12 @@ Feature: Validate cloud platforms from Google search and AWS page
     When I click the "View at AWS" button
     Then a new browser tab should open with URL "https://aws.amazon.com/what-is-aws/"
     And the page should contain "Cloud computing with AWS"
+
+🤝 Contributing
+Feel free to fork the repo and submit pull requests for improvements or additional scenarios.
+
+🧑 Author
+Venkat – GitHub Profile
+
+📄 License
+Licensed under the MIT License.

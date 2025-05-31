@@ -12,8 +12,10 @@ public class DriverFactory {
     private static WebDriver driver;
 
     public static WebDriver getDriver(String browser) {
-        if (driver == null) {
-            switch (browser.toLowerCase()) {
+        if (driver == null)
+        {
+            switch (browser.toLowerCase())
+            {
                 case "firefox":
                     WebDriverManager.firefoxdriver().setup();
                     driver = new FirefoxDriver();

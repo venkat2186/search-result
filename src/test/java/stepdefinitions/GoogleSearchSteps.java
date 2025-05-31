@@ -15,8 +15,8 @@ import java.util.Set;
 
 
 
-public class GoogleSearchSteps  {
-
+public class GoogleSearchSteps
+{
     WebDriver driver = DriverFactory.getDriver(System.getProperty("browser", "chrome"));
 
     WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
@@ -24,7 +24,6 @@ public class GoogleSearchSteps  {
 
     // WebElement collection
     final static String LINK_SEARCHED_TOPIC_XPATH = "//h3[contains(text(),'Top cloud providers: AWS, Microsoft Azure, and ...')]";
-
 
     @Given("I launch the browser and open {string}")
     public void i_launch_the_browser_and_open(String url) throws InterruptedException {
